@@ -535,7 +535,7 @@ export default function HomePage() {
         <section id="projects" className="mb-32">
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
             <h2 className="text-5xl font-black text-white mb-4">Featured <span className="text-blue-400">Projects</span></h2>
-            <p className="text-xl text-slate-400 max-w-2xl mx-auto">Some of the projects I've worked on, showcasing my technical skills and problem-solving abilities.</p>
+            <p className="text-xl text-slate-400 max-w-2xl mx-auto">Some of the projects I&#39;ve worked on, showcasing my technical skills and problem-solving abilities.</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -598,7 +598,7 @@ export default function HomePage() {
 
         <section id="contact" className="mb-20">
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
-            <h2 className="text-5xl font-black text-white mb-4">Let's <span className="text-blue-400">Connect</span></h2>
+            <h2 className="text-5xl font-black text-white mb-4">Let&#39;s <span className="text-blue-400">Connect</span></h2>
             <p className="text-xl text-slate-400 max-w-2xl mx-auto">Ready to collaborate or discuss IT solutions? Get in touch!</p>
           </motion.div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-4xl mx-auto">
